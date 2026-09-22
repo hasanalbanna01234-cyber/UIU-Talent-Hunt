@@ -1,0 +1,6 @@
+# Keep the limits aligned with the upload form and allow room for metadata
+# and an optional video thumbnail.
+php_value upload_max_filesize 100M
+php_value post_max_size 110M
+php_value max_execution_time 300
+php_value max_input_time 300
