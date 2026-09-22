@@ -1,0 +1,15 @@
+.feed-message { color: #66716b; margin-top: 48px; }
+.react-feed { display: grid; gap: 16px; grid-template-columns: repeat(3, minmax(0, 1fr)); margin-top: 56px; max-width: 1000px; }
+.post-preview { background: #dfe5da; padding: 24px; }
+.post-preview .eyebrow { margin-bottom: 12px; }
+.post-preview h2 { font-size: 1.4rem; }
+.post-preview p:not(.eyebrow) { color: #66716b; line-height: 1.5; }
+.post-preview small { color: #db5b35; font-weight: 700; }
+.signup-page { min-height: 100vh; padding: 28px clamp(24px, 8vw, 120px); }
+.signup-panel { margin: 10vh auto; max-width: 840px; }
+.signup-panel h1 { font-size: clamp(3.8rem, 8vw, 7rem); line-height: .9; }
+.signup-grid { display: grid; gap: 0 28px; grid-template-columns: 1fr 1fr; margin-top: 48px; }
+.signup-grid label:last-of-type, .signup-grid .form-error { grid-column: 1 / -1; }
+.signup-grid .primary-button { grid-column: 1 / -1; justify-self: start; margin-top: 12px; }
+select { background: transparent; border: 0; border-bottom: 1px solid #b8beb6; color: #17231f; display: block; outline: none; padding: 10px 0; width: 100%; }
+@media (max-width: 760px) { .react-feed, .signup-grid { display: block; } .post-preview { margin-top: 16px; } .signup-grid .primary-button { margin-top: 20px; } }
